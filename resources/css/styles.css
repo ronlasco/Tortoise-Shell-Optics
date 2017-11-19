@@ -95,4 +95,11 @@ a:link, a:visited  {
 	color: black;
 	height: 8rem;
 	width: 5rem;
+	display: block;
+	align-content: center;
+	text-align: center;
+}
+
+.paper img {
+	width: 3.5rem;
 }
