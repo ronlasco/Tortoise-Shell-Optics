@@ -74,10 +74,12 @@ a:link, a:visited  {
 	position: relative;
 	top: 10rem;
 	float: right;
+	color: black;
 }
 
 .positioning {
-
+	width: 1032px;
+	margin: 0 auto;
 }
 
 /*-------MAIN------------*/
