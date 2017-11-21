@@ -82,6 +82,9 @@ a:link, a:visited  {
 	margin: 0 auto;
 }
 
+.menu {
+	display: none;
+}
 /*-------MAIN------------*/
 
 .services {
@@ -186,5 +189,42 @@ footer img {
 	top: 5rem;
 	margin-right: 2rem;
 	
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+	body {
+		width: 470px;
+	}
+
+
+	header div.container {
+		width: 100%;
+		max-width: 470px;
+		position: static;
+		margin: 0;
+	}
+
+	div.logo span, div.container nav {
+		display: none;
+	}
+
+	.banner {
+		height: 17rem;
+		background-position: 20%;
+	}
+
+	.message {
+	font-size: 	1rem;
+	padding: 1rem;
+	position: relative;
+	top: 9rem;
+	text-align: center;
+	
+    }
+
+    .menu {
+    	display: inline;
     }
 }
