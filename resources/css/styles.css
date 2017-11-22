@@ -195,9 +195,10 @@ footer img {
 @media only screen and (max-width: 470px) {
 
 	body {
-		width: 470px;
+		max-width: 470px;
 	}
 
+	
 
 	header div.container {
 		width: 100%;
@@ -216,11 +217,13 @@ footer img {
 	}
 
 	.message {
+	max-width: 470px;
 	font-size: 	1rem;
 	padding: 1rem;
 	position: relative;
 	top: 9rem;
 	text-align: center;
+	float: none;
 	
     }
 
@@ -250,8 +253,9 @@ footer img {
 	}
 
 .thirdsection div {
-	width: 35%;
-	margin-bottom: 5rem;
+	width: 100%;
+	margin-bottom: 4rem;
+	text-align: center;
 	}
 
 .head {
@@ -276,6 +280,28 @@ footer img {
 
 .philosophy, .appointments {
 	width: 100%;
+	}
+
+.thirdsection p:nth-child(2) {
+		margin-top: 1rem;
+		padding-left: 0.5rem;
+		padding-right: 1.5rem;
+	}
+
+footer span {
+	display: none;
 }
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+  	
+ }
+
+ footer img {
+ 	margin: 0 auto;
+ }
 
 }
