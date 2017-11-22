@@ -227,4 +227,55 @@ footer img {
     .menu {
     	display: inline;
     }
+
+    .services {
+	display: flex;
+	flex-direction: column;
+	padding: 3.77rem 0;
+	}
+
+	.type {
+		margin: 0 auto;
+		font-size: .77rem;
+	}
+
+	.truck, .ruler {
+		padding-top: 1.54rem;
+	}
+
+	.thirdsection {
+	display: block;
+	
+
+	}
+
+.thirdsection div {
+	width: 35%;
+	margin-bottom: 5rem;
+	}
+
+.head {
+	background-color: cadetblue;
+	width: 100%;
+	font-weight: bold;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	padding: 0.5rem 1.25rem;
+	margin-bottom: 1rem;
+	
+	}
+
+.philosophy {
+	margin-left: 0;
+	}
+
+.appointments {
+	margin-right: 0;
+	}
+
+.philosophy, .appointments {
+	width: 100%;
+}
+
 }
